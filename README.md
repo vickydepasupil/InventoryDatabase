@@ -32,9 +32,12 @@ This project was developed using: Spring MVC, MySQL, Apache Tomcat, Eclipse IDE.
 </div>
 
 <div>
-<h3>Editing Items</h3>
+<h3>Editing Items, Form Validation</h3>
 <img src="https://user-images.githubusercontent.com/29102307/28386197-62b9983e-6cfd-11e7-8a00-c74da713af0d.png" width="430">
 <p>Users may not edit the item's ID. Users may not leave any field blank as well, when editing an item.</p>
+<img src="https://user-images.githubusercontent.com/29102307/28388395-2df65d46-6d05-11e7-9264-f6f188e281d7.png" width="430">
+<img src="https://user-images.githubusercontent.com/29102307/28388394-2df054f0-6d05-11e7-84a6-f2c6930805f9.png" width="430">
+<p>Only <b>positive numerical values</b> may be entered into the database for the <b>Unit Price</b> and <b>Quantity</b> fields. The custom validation class returns error messages otherwise.</p>
 </div>
 
 <div>
