@@ -1,5 +1,5 @@
 # InventoryDatabase
-A Spring Web MVC and MySQL application creating an inventory database with add, view, edit, and delete features.
+A Spring Web MVC and MySQL application of a simple inventory database with add, view, edit, and delete features.
 This project was developed using: Spring MVC, MySQL, Apache Tomcat, Eclipse IDE.
 
 <div>
